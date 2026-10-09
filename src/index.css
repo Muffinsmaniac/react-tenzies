@@ -23,7 +23,7 @@ main{
   align-items: center;  
 }
 
-.die-container{
+.die-container{  
   display: grid;
   grid-template-columns: repeat(5, auto);
   gap:40px 70px;  
