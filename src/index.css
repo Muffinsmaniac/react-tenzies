@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color: rgb(12, 12, 63);
+  background-color: rgb(17, 17, 19);
   padding:30px;
   height: 90vh;
   display: flex;
@@ -20,7 +20,8 @@ main{
   border-radius: 8px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
+  flex-direction: column;
 }
 
 .die-container{  
@@ -44,4 +45,15 @@ main{
   border-radius: 8px;
   box-shadow: rgb(161, 147, 147) 1px 1px 4px;
   cursor: pointer;
+}
+
+#roll-button{
+  font-family:Inter,'Arial Narrow', Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  padding: 1.5% 8%;
+  background-color: rgba(80, 53, 255);
+  color: white;
+  margin-top: 50px;
 }

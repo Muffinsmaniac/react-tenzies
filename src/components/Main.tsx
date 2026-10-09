@@ -15,12 +15,16 @@ export default function Main(){
     
     const diceComponents:React.JSX.Element[] = dice.map((value) => <Die value={value}/>)
     
+    function rollDice(){
+        setDice(generateAllNewDice)
+    }
+
     return(
         <main>
             <div className="die-container">
                 {diceComponents}
             </div>
-            
+            <button id="roll-button" onClick={rollDice}>Roll</button>
         </main>
     )
 
