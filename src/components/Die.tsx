@@ -1,12 +1,13 @@
 type DieProps = {
-    value:number
+    value:number,
+    isHeld:boolean
 }
 
-export default function Die({value}:DieProps){
+export default function Die(props:DieProps){
 
     return (
-        <button className="die">
-            {value}
+        <button className={props.isHeld ? "held" : ""}>
+            {props.value}
         </button>
     )
 }

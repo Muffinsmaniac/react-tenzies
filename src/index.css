@@ -31,7 +31,7 @@ main{
   padding:10px;
 }
 
-.die{
+.die-container button{
   font-family:Inter,'Arial Narrow', Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -45,6 +45,10 @@ main{
   border-radius: 8px;
   box-shadow: rgb(161, 147, 147) 1px 1px 4px;
   cursor: pointer;
+}
+
+.die-container button.held{
+  background-color: #59E391;
 }
 
 #roll-button{
