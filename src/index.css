@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background-color: rgb(12, 12, 63);
+  padding:30px;
+  height: 90vh;
+  display: flex;
+  justify-content: center;  
+}
+
+#root{    
+  height: 100%;
+  width: 100%;
+  max-width: 800px;
+  max-height: 900px;
+}
+
+main{
+  height: 100%;
+  background-color: white;
+  border-radius: 8px;
+  
+}
